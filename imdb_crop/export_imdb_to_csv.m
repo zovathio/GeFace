@@ -7,10 +7,10 @@ csvfile = fopen("imdb.csv", "w");
 fprintf(csvfile, "dob,photo_taken,full_path,gender,name,face_location,face_score,second_face_score,celeb_id\n");
 
 for i = 1:length(imdb.dob)
-   if (i == 10000)
-       break
-   end
-   
+%    if (i == 10000)
+%        break
+%    end
+%    
     fprintf(csvfile, "%d,", imdb.dob(i));
     fprintf(csvfile, "%d,", imdb.photo_taken(i));
     
