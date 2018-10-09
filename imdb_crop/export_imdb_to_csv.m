@@ -11,7 +11,7 @@ for i = 1:length(imdb.dob)
 %        break
 %    end
 %    
-    fprintf(csvfile, "%d,", imdb.dob(i));
+    fprintf(csvfile, "%d,", datetime(imdb.dob(i),'ConvertFrom','datenum').Year);
     fprintf(csvfile, "%d,", imdb.photo_taken(i));
     
     celldata = cellstr(imdb.full_path(i));
