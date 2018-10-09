@@ -22,7 +22,7 @@ age = []
 
 try:
     # read the csv
-    csv_file = pd.read_csv("../data/imdb.csv", ",")
+    csv_file = pd.read_csv("../data/imdb.csv", delimiter=';', encoding="ISO-8859-1", engine='python')
     header = pd.read_csv("../data/imdb.csv", ",", header=None, nrows=1)
     pd.set_option('display.max_columns', 100)
 
