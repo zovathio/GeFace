@@ -26,26 +26,22 @@ try:
     header = pd.read_csv("../data/imdb.csv", ",", header=None, nrows=1)
     pd.set_option('display.max_columns', 100)
 
-    full_path = csv_file.get("full_path")
-    #print(len(full_path))
-    i = 0;
-    bad = []
-    for elem in full_path:
-        m = re.search("[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}", elem)
-        if m is None:
-            # if something is not okay with the date than skipp and mark the index
-            bad.append(i)
-            continue
-        mm = re.search("[0-9]{4}", m.group(0))
-        date_of_birth.append(int(mm.group(0)))
-        i += 1
-
-    # print("BAD:")
-    # print(bad)
-    # print("Bad len: ", len(bad), "\n")
+    # full_path = csv_file.get("full_path")
+    # #print(len(full_path))
+    # i = 0;
+    # bad = []
+    # for elem in full_path:
+    #     m = re.search("[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}", elem)
+    #     if m is None:
+    #         # if something is not okay with the date than skipp and mark the index
+    #         bad.append(i)
+    #         continue
+    #     mm = re.search("[0-9]{4}", m.group(0))
+    #     date_of_birth.append(int(mm.group(0)))
+    #     i += 1
 
     # get the neccessary columns from pandas and create a numpy array
-    new_data = np.asmatrix([
+    new_data = np.asmatrix([csv_file.get("dob"),
                           csv_file.get("photo_taken"),
                           csv_file.get("gender"),
                           csv_file.get("full_path")],
@@ -54,10 +50,10 @@ try:
     # transpose the matrix
     new_data = np.transpose(new_data)
     # remove the wrong entries
-    for elem in bad:
-        new_data = np.delete(new_data, elem, axis=0)
+    # for elem in bad:
+    #     new_data = np.delete(new_data, elem, axis=0)
 
-    new_data = np.insert(new_data, 0, np.asarray(date_of_birth), axis=1)
+    # new_data = np.insert(new_data, 0, np.asarray(date_of_birth), axis=1)
     # claculate ages for the persons
     for i in range(new_data.shape[0]):
         age.append(new_data[i, 1] - new_data[i, 0])
