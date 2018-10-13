@@ -12,9 +12,6 @@ Tensorflow, Keras
 ## Declaration of goal
 Our goal is to construct an intelligent system which is able to predict the age (and gender) of people from a single image using Convulutional Neural Networks (CNNs). We are also interested deeply in the egsistence of any visible features which can represent the aging on the face - like the growth rings on trees for example.
 
-## Dataset
-In the project we downloaded a dataset with ca. 500 000 images and annotations. Then we formed it, cropped it and resized into 128x128 pixel images. The formed dataset is freely available here: https://drive.google.com/file/d/1QY0hLoK9sMJN4kUDFeTIl9C7OoQIE88W/view
-
 ## Step 1: Introduction, literature overview
 Age estimation is still an open and unsolved task in today's life. Althoguh, in the past few years a lot of different approaches were created and presented. Some of these methods collect a lot of information about the person (e.g. height, weight, favourites, family status), other approaches look at a photo of the whole body and make some consequences. 
 
@@ -22,6 +19,11 @@ Our proposal is that without any additional information or without looking at th
 
 Our other goal is to look into the deeper layers of such a network to see which features dominate in representing the age on the face, like such networks which learnes styles and use it for transferring images into different styles and ages.
 
+## Step 2: Dataset and preprocessing
+In the project we downloaded a dataset with ca. 500 000 images and annotations. Then we formed it, cropped it and resized into 128x128 pixel images. The formed dataset is freely available here: https://drive.google.com/file/d/1QY0hLoK9sMJN4kUDFeTIl9C7OoQIE88W/view
+
+## Step 3: Model constuction, training, validation and test
+In progress for Milestone 2...
 ## Last step: Deployment
 Without limitation, a few problems that can be solved with correct age estimation. These were also our motivation for choosing such a difficult and unsolved task.
 
