@@ -23,6 +23,10 @@ We are currently not aware of the possible outcome of our network. In case of go
 
 ## Step 2: Dataset and preprocessing
 In the project we downloaded a dataset with ca. 500 000 images and annotations. Then we formed it, cropped it and resized into 128x128 pixel images. The formed dataset (~4 GB) is freely available [here](https://drive.google.com/file/d/1QY0hLoK9sMJN4kUDFeTIl9C7OoQIE88W/view).
+<br> The three steps we made are the following:
+Step 0: Cropping the dataset and remove all invalid items, visualize the numbers of each class.
+Step 1: Resize all the images.
+Step 2: Split the dataset to train-validation-test-values. Result is x_train, x_valid, x_test input images and y_train, y_valid, y_test output values.
 
 ## Step 3: Model constuction, training, validation and test
 In progress for Milestone 2...
