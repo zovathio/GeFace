@@ -19,13 +19,14 @@ Our proposal is that without any additional information or without looking at th
 
 Our other goal is to look into the deeper layers of the Network to see which features dominate in representing the aging on the face, like such networks which learnes styles and use it for transferring images into different styles and ages. (For an easy example see  [this article](https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398).)
 
-We are currently not aware of the possible outcome of our network. In case of good accuracy, our system can be used on its' own to predict ages, in case of a worse accuracy, it can be still combines with the other techniques which were mentioned above. But in both cases, the learned features can be visualized and checked, which is also our secret goal.
+We are currently not aware of the possible outcome of our network. In case of good accuracy, our system can be used on its own to predict ages, in case of a worse accuracy, it can be still combined with the other techniques that were mentioned above. But in both cases, the learned features can be visualized and checked, which is - as we already said - also a goal of the project.
 
 ## Step 2: Dataset and preprocessing
-In the project we downloaded a dataset with ca. 500 000 images and annotations. Then we formed it, cropped it and resized into 128x128 pixel images. The formed dataset is freely available here: https://drive.google.com/file/d/1QY0hLoK9sMJN4kUDFeTIl9C7OoQIE88W/view
+In the project we downloaded a dataset with ca. 500 000 images and annotations. Then we formed it, cropped it and resized into 128x128 pixel images. The formed dataset (~4 GB) is freely available [here](https://drive.google.com/file/d/1QY0hLoK9sMJN4kUDFeTIl9C7OoQIE88W/view).
 
 ## Step 3: Model constuction, training, validation and test
 In progress for Milestone 2...
+
 ## Last step: Deployment
 Without limitation, a few problems that can be solved with correct age estimation. These were also our motivation for choosing such a difficult and unsolved task.
 
