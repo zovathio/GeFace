@@ -34,6 +34,7 @@ We created a model VGG8. Input dimensions of the network are 96*96@3. The traini
 * EarlyStopping and Checkpoint is not implemented yet
 * training accuracy and validation accuracy could be better -> we will modify the model till the presetation
 * We tested on 2 selfies and the DNN showd us 27 years old but we are 23 and 24 so it is not so bad result.
+* Till the end of semester we will feed up the network with all the pictures in the dataset
 
 ## Last step: Deployment
 Without limitation, a few problems that can be solved with correct age estimation. These were also our motivation for choosing such a difficult and unsolved task.
