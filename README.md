@@ -22,7 +22,7 @@ Our other goal is to look into the deeper layers of the Network to see which fea
 We are currently not aware of the possible outcome of our network. In case of good accuracy, our system can be used on its own to predict ages, in case of a worse accuracy, it can be still combined with the other techniques that were mentioned above. But in both cases, the learned features can be visualized and checked, which is - as we already said - also a goal of the project.
 
 ## Step 2: Dataset and preprocessing
-In the project we downloaded a dataset with ca. 500 000 images and annotations. Then we formed it, cropped it and resized into 128x128 pixel images. The formed dataset (~4 GB) is freely available [here](https://drive.google.com/file/d/1QY0hLoK9sMJN4kUDFeTIl9C7OoQIE88W/view).
+In the project we downloaded a dataset with ca. 500 000 images and annotations. Then we formed it, cropped it and resized into 96x96 pixel images that contains only the faces of people. (For Milestone 1: The formed dataset (~4 GB) is freely available [here](https://drive.google.com/file/d/1QY0hLoK9sMJN4kUDFeTIl9C7OoQIE88W/view)).
 <br> The three steps we made are the following:<br>
 Step 0: Cropping the dataset and remove all invalid items, visualize the numbers of each class.<br>
 Step 1: Resize all the images.<br>
