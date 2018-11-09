@@ -29,12 +29,13 @@ Step 1: Resize all the images.<br>
 Step 2: Split the dataset to train-validation-test-values. Result is x_train, x_valid, x_test input images and y_train, y_valid, y_test output values.
 
 ## Step 3: Model constuction, training, validation and test
-We created a model VGG8. Input dimensions of the network are 96*96@3. The training process: model building, training, testing is in the training.ipynb notebook. 
+We created a model architecture based on VGG8. Input dimensions of the network are 96*96@3. In our very first training process (for Milestone 2) we built, trained and tested the model in the training.ipynb notebook.
+The steps are the following:
 * We randomly selected 1000 pictures. 700 for training 200 for validation and 100 for testing. 
 * EarlyStopping and Checkpoint is not implemented yet
-* training accuracy and validation accuracy could be better -> we will modify the model till the presetation
-* We tested on 2 selfies and the DNN showd us 27 years old but we are 23 and 24 so it is not so bad result.
-* Till the end of semester we will feed up the network with all the pictures in the dataset
+* Training accuracy and validation accuracy could be better -> we will modify the model till the presetation
+* We tested on 2 selfies and the DNN showed us 27 years old but we are 23 and 24 so it is not so bad result.
+* Till the end of semester we will feed up the network with all the pictures in the dataset (~260k colored pictures)
 
 ## Last step: Deployment
 Without limitation, a few problems that can be solved with correct age estimation. These were also our motivation for choosing such a difficult and unsolved task.
