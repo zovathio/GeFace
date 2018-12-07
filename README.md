@@ -5,6 +5,8 @@ Participants:
 <br>Máté Bártfai (@bartfaimate)
 <br>Örkény H. Zováthi (@zovathio)
 
+The documentation of the project (idea, theory, restults) can be found [here](https://github.com/bartfaimate/GeFace/blob/master/GeFace_paper.pdf)
+
 ## Requirements
 Python 3.5 (at least)<br>
 Tensorflow, Keras<br>
@@ -17,9 +19,14 @@ You can download this packages with `pip install <packagename>` command
 ## Project structure
 
 ## images 
+
+
 Images can be found [here](https://drive.google.com/open?id=14I8YEH0egjkkbrpaBIAcQuoM9cGHVUoH)
 
+
 ## notebooks
+
+
 **It could be, that you have to change the paths in the whole project**
 
 The notebooks folder contains the jupyter notebooks. 
@@ -47,6 +54,8 @@ This folder contains the runnable python script. In the **titan** folder it can 
 ## Summary
 
 The neccessary files are: notebooks/preprocess_step\[0:2\].ipynb, notebooks/Xception-regression-finetune_class.ipynb, notebooks/Xception-regression_test.ipynb, notebooks/Xception-regression_classify.ipynb
+
+The files of the trained and tested model can be found [here](https://drive.google.com/open?id=1NVvmUBpyR1OPnH60hpmrJhwDWaTz7PPG)
 
 -------------------------------------------------------------------------------------------------------------------
 
