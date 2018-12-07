@@ -7,7 +7,46 @@ Participants:
 
 ## Requirements
 Python 3.5 (at least)<br>
-Tensorflow, Keras
+Tensorflow, Keras<br>
+NumPy, Pandas, sklearn<br><br>
+
+You can download this packages with `pip install <packagename>` command
+
+---------------------------------------------------------------------
+
+## Project structure
+
+### images 
+Images can be found [here](https://drive.google.com/open?id=14I8YEH0egjkkbrpaBIAcQuoM9cGHVUoH)
+
+### notebooks
+**It could be, that you have to change the paths in the whole project**
+
+The notebooks folder contains the jupyter notebooks. 
+For the preprocessing the database you have to run **preprocess_step\[0:2\].ipynb** notebooks.
+
+For training you have to run **Xception-regression-finetune_class.ipynb**. This notebook contains the database processing, model building, compile and training process.
+
+With the **plotter.ipynb** notebook you can plot and save the training curves.
+
+**Xception-regression_classify.ipynb** notebook loads the model, labels and do the prediction on an image 
+
+**Xception-regression_test.ipynb** loads the model and do the prediciton on the test database, which contains around 26 000 pictures and saves the results into a csv file
+
+**prev_approaches** folder contains prevoius approaches. You don't have to look at them.
+
+
+### src
+**It could be, that you have to change the paths in the whole project**
+
+This folder contains the runnable python script. In the **titan** folder it can be found which script we have ran on a TitanX GPU.
+
+**Xception-regression_finetun.py** is generated from the notebook file, which has the same name.
+
+
+## Summary
+
+The neccessary files are: notebooks/preprocess_step\[0:2\].ipynb, notebooks/Xception-regression-finetune_class.ipynb, notebooks/Xception-regression_test.ipynb, notebooks/Xception-regression_classify.ipynb
 
 ## Declaration of goal
 Our goal is to construct an intelligent system which is able to predict the age (and gender) of people from a single image using Convulutional Neural Networks (CNNs). We are also interested deeply in the egsistence of any visible features which can represent the aging on the face - like the growth rings on trees for example.
