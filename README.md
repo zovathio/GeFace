@@ -18,16 +18,18 @@ You can download this packages with `pip install <packagename>` command
 
 ## Project structure
 
-## images 
+## faces_colored folder
 
-
+This folder contains the metadata as a csv file. (Image paths, gender, age)
 Images can be found [here](https://drive.google.com/open?id=14I8YEH0egjkkbrpaBIAcQuoM9cGHVUoH)
 
 
-## notebooks
+
+## notebooks folder
 
 
 **It could be, that you have to change the paths in the whole project**
+In the notebooks you can find more descriptions about the processes.
 
 The notebooks folder contains the jupyter notebooks. 
 For the preprocessing the database you have to run **preprocess_step\[0:2\].ipynb** notebooks.
@@ -43,7 +45,7 @@ With the **plotter.ipynb** notebook you can plot and save the training curves.
 **prev_approaches** folder contains prevoius approaches. You don't have to look at them.
 
 
-## src
+## src folder
 **It could be, that you have to change the paths in the whole project**
 
 This folder contains the runnable python script. In the **titan** folder it can be found which script we have ran on a TitanX GPU.
