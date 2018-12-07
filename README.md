@@ -28,6 +28,7 @@ Images can be found [here](https://drive.google.com/open?id=14I8YEH0egjkkbrpaBIA
 
 
 **It could be, that you have to change the paths in the whole project**
+In the notebooks you can find more descriptions about the processes.
 
 The notebooks folder contains the jupyter notebooks. 
 For the preprocessing the database you have to run **preprocess_step\[0:2\].ipynb** notebooks.
