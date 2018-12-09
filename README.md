@@ -5,7 +5,7 @@ Participants:
 <br>Máté Bártfai (@bartfaimate)
 <br>Örkény Zováthi (@zovathio)
 
-The documentation of the project (idea, theory, results) can be found [here](https://github.com/bartfaimate/GeFace/blob/master/GeFace_paper.pdf)
+The documentation of the project (idea, theory, results) can be found [here](https://github.com/bartfaimate/GeFace/blob/master/GeFace_paper.pdf).
 
 ## Requirements
 Python 3.5 (at least)<br>
