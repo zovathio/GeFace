@@ -3,9 +3,9 @@ Project work for the subject 'Deep Learning in Practice with Python and LUA' at 
 
 Participants:
 <br>Máté Bártfai (@bartfaimate)
-<br>Örkény H. Zováthi (@zovathio)
+<br>Örkény Zováthi (@zovathio)
 
-The documentation of the project (idea, theory, restults) can be found [here](https://github.com/bartfaimate/GeFace/blob/master/GeFace_paper.pdf)
+The documentation of the project (idea, theory, results) can be found [here](https://github.com/bartfaimate/GeFace/blob/master/GeFace_paper.pdf)
 
 ## Requirements
 Python 3.5 (at least)<br>
