@@ -1,5 +1,5 @@
 # -GeFace
-Project work for the subject 'Deep Learning in Practice with Python and LUA' at the Budapest University of Technology and Economics (BUTE).
+Student project for Deep Learning. Forked from @bartfaimate
 
 Participants:
 <br>Máté Bártfai (@bartfaimate)
